@@ -1,0 +1,40 @@
+*, ::before, ::after{
+    box-sizing: border-box; 
+}
+body{
+    margin:0;
+    padding:0;
+    background:#333;
+
+}
+.container{
+    position: absolute;
+    padding:20px;
+    line-height: 1.5em;
+    color: rgb(211, 140, 34);
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    filter: invert(44%);
+    text-transform: lowercase;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px black ;
+}
+.container ::first-letter{
+     font-size: 2.0rem;
+     font-weight: bold;
+}
+
+.row{
+background-image: url(https://source.unsplash.com/random/200x200);
+width:200px;
+height:200px;
+border-radius: 40%;
+float:left;
+background-size: cover;
+background-position: center;
+margin:0px 30px 5px;
+shape-outside: circle(50%);
+
+
+}
