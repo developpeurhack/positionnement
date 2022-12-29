@@ -1,1 +1,1 @@
-#  Position tex and image 
+#  Position text and image 
